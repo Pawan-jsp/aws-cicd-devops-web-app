@@ -14,7 +14,7 @@ phases:
   build:
     commands:
       - echo "Installing tidy"
-      - yum install -y tidy
+      - apt install -y tidy
       - echo "Running tidy"
       - tidy -q -e index.html
 
